@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body> <!--onmouseup="alert('Clicou na tela')" onmouseup aciona quando solta o click do mouse-->
+    <h1>Aprendendo JavaScript</h1>
+    <p id="texto"></p>
+
+    <button ondblclick="eventoClick()">Clique aqui</button>
+
+    <select onchange="mudou()" id="itens"> <!--Select de opções com o evento de mudanças-->
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+
+    </select>
+
+    <div id="teste" style="margin:auto auto; width: 80%; height: 200px; background: white;"></div>
+
+    <p>
+        <script>
+            document.write('<u>Esse texto foi escrito com  document.write</u>') // outra forma de inserir texto <u> é o sublinhado
+        </script>
+    </p>
+
+    <!--<input onfocus="limpaTexto()" id="Campotexto" style="padding: 80px; font-size: 40px;" type="text" 
+    placeholder="Digite alguma coisa" value="Já está com texto"></input>--> <!-- evento de foco-->
+
+    <!--<input onchange="mudou()" id="Campotexto" style="padding: 80px; font-size: 40px;" type="text" 
+    placeholder="Digite alguma coisa" value="Já está com texto"></input> //Caixa de texto com evento de mudanças-->
+
+    <input onkeypress="teclaPressionada()" onchange="mudou()" id="Campotexto" style="padding: 80px; font-size: 40px;" type="text" 
+    placeholder="Digite alguma coisa" value="Já está com texto"></input>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
