@@ -1,3 +1,17 @@
+/*
+Aula 1 
+alert('Olá Mundo'); // isto gera um pop-up 
+*/
+
+/*
+Aula 2 - tipos de saida
+document.getElementById("texto").innerHTML = "Mostrando um texto <b>JS</b>!";
+// document.getElementById pega o elemento pelo id que foi colocado na pagina html 
+// innerHTML coloca um texto no elemento, <b>JS</b> negrito
+alert(10+5);
+console.log("Isso é um console.log")
+*/
+
 //document.getElementById("texto").innerHTML = " Isso é um txt usando document.getElementById com <b>JS</b>";
 //console.log("Isso é um console.log");
 
